@@ -11,7 +11,7 @@ on:
 
 jobs:
   generate-schema:
-    uses: shopware/docs-ci/.github/workflows/generate_schema.yml@main
+    uses: Isengo1989/docs-ci/.github/workflows/generate_schema.yml@main
     with:
       schema_flags: ""
       schema_file: adminapi.json
